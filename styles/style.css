@@ -84,8 +84,8 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    background-color: rgb(13, 118, 147);
-    color: azure;
+    background-color: rgba(13, 118, 147, 0.315);
+    color: black;
 }
 
 .card>div:nth-child(1){
