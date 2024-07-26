@@ -1,20 +1,35 @@
 @media screen and (max-width: 800px) {
-    .nav-main{
+    .nav-main {
         flex-direction: column;
         align-items: center;
     }
-    .nav-main > div{
+
+    .nav-main>div {
         margin-top: 20px;
     }
+    .half-price{
+        left: 20%;
+    }
 }
+
 @media screen and (max-width: 500px) {
-    .hamburger{
+    .hamburger {
         display: block;
     }
-    .nav-btn-container{
+
+    .nav-btn-container {
         display: none;
     }
-    .nav-main{
+
+    .nav-main {
         flex-direction: row;
+    }
+
+    .banner-main {
+        flex-direction: column;
+    }
+
+    .banner-childs {
+        width: 100%;
     }
 }
