@@ -10,6 +10,9 @@
     .half-price{
         left: 20%;
     }
+    .popular-main{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -31,5 +34,8 @@
 
     .banner-childs {
         width: 100%;
+    }
+    .popular-main{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
